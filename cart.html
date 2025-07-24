@@ -1,0 +1,15 @@
+<h1>Cart</h1>
+<ul id="cart-list"></ul>
+
+<script>
+  const cart = JSON.parse(localStorage.getItem('cart'));
+
+  if (cart) {
+    const cartList = document.getElementById('cart-list');
+    cart.forEach((product) => {
+      const listItem = document.createElement('li');
+      listItem.textContent = `${product.name} - $${product.price}`;
+      cartList.appendChild(listItem);
+    });
+  }
+</script>

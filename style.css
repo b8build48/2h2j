@@ -1,0 +1,305 @@
+
+         .hero {
+    background-image: url('blessing-picture/IMG-20250705-WA0024.jpg');
+    background-size:cover;
+    background-position: center;
+    
+    height:480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+.b8h1{
+    font-size:48px;
+    font-family:sans-serif;
+    text-align:center;
+    font-weight:bold;
+    color:blue;
+}
+  .hero h1 {
+    font-size: 48px;
+     color:black;
+      font-weight:bold;
+      font-family:
+  }
+     .product-container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ text-align:center;
+  padding: 20px;
+}
+
+.product-image{
+  width: 40%;
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-details {
+  width: 60%;
+}
+.product-image-two{
+  width: 40%;
+  margin-right: 20px;
+    display:flex;
+    justify-content:space-between;
+    
+} 
+.product-image-two img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+    margin-right: 20px;
+}
+}
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.product-t{
+    font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+    text-align:center;
+}
+.b8button,.b8button-pro,.b8button-pro-max {
+    background-color: #f2f2f2;
+    color: #000000;
+    border: none;
+    border-radius:10px;
+    padding:8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:8px;
+    display:inline-block;
+    text-align:center;
+}
+.b8button-pro{
+    margin-left:28px;
+}
+.b8button-pro-max{
+    margin-left:84px;
+}
+.semi-header{
+    margin-top:28px;
+    text-align:left;
+    font-weight:484.84;
+    font-family:sans-serif;
+    color:black;
+}
+.rankb{
+    text-align:left;
+    font-weight:484.84;
+    font-size:28px;
+    font-family:sans-serif;
+    color:black;
+}
+.product-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+   
+}
+.href{
+    text-decoration:none;
+    display:block;
+    font-family:sans-serif;
+    font-size:18px;
+    font-weight:484.848;
+}
+.product-pricing {
+  margin-bottom: 20px;
+}
+
+.current-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.original-price {
+  font-size: 16px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+.discount {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f00;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.product-actions {
+  margin-top: 20px;
+}
+
+.add-to-cart, .buy-now {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background-color: #333;
+  color: #fff;
+}
+
+.buy-now {
+  background-color: #f00;
+  color: #fff;
+}
+.button-container {
+  position: fixed;
+  bottom:184px;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  
+}
+
+.back-button {
+    width:50px;
+    height:20px;
+    background-color:blue;
+    color:yellow;
+    border: none;
+    border-radius:10px;
+    display:inline;
+    font-size:84.484;
+    font-weight:bold;
+    object-position: center;
+    text-shadow:0 0 1px black,0 0 1px black,0 0 1px black;
+    justify-content:center;
+    
+}
+
+.back-button:hover {
+    background-color: #3e8e41;
+}
+
+.right-button {
+  width:50px;
+  height:50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #008000;
+  color: #fff;
+    font-size:35.31px;
+    font-weight:bold;
+    text-shadow:0 0 1px black,0 0 1px black,0 0 1px black;
+}
+.breadcrumb{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+.breadcrumb li{
+display:inline-block;
+margin-right:10px;
+}
+.breadcrumb li + li:before {
+  content:">";
+  margin-right:10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.crew-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.crew-member {
+    margin: 1em;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 2em);
+}
+
+@media (max-width: 768px) {
+}
+
+a{
+   text-decoration:none;
+}
+.right-button:hover {
+  background-color: #3e8e41;
+}
+
+.b8h18{
+  text-align:center;
+}
+        .custom-order-button {
+  text-align: center;
+  margin: 20px;
+}
+.custom-order-button-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+.custom-order-button button:hover {
+  background-color: #3e8e41;
+}
+footer{
+    text-align:center;
+    color:white;
+    background-image:url('blessing-picture/20250709_192044 (1) (1).jpg');
+    padding-top:8em;
+    padding-bottom:8em;
+    clear:none;
+    background-size:cover;
+    background-position:center;
+}
+
+
