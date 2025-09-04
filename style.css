@@ -172,18 +172,17 @@
 }
 
 .back-button {
-    width:50px;
-    height:20px;
+    width:84px;
+    height:28.24px;
     background-color:blue;
     color:yellow;
     border: none;
     border-radius:10px;
     display:inline;
-    font-size:84.484;
-    font-weight:bold;
     object-position: center;
     text-shadow:0 0 1px black,0 0 1px black,0 0 1px black;
     justify-content:center;
+    margin: 8px;
     
 }
 
@@ -300,6 +299,7 @@ footer{
     clear:none;
     background-size:cover;
     background-position:center;
+    
 }
 
 .whatsapp-btn {
@@ -370,4 +370,40 @@ footer{
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+}
+
+.fade-out {
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to the body or a container element */
+body {
+  animation: fadeIn 2s forwards;
+}
+
+/* Optional: Add a delay to the fade-out animation */
+.fade-out {
+  animation-delay: 2s; /* Wait 2 seconds before fading out */
 }
