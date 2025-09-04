@@ -306,16 +306,26 @@ footer{
   position: fixed;
   width:50px;
   height:50px;
-  left:8px;
   bottom:80px;
   right:365px;
-  background-color: #DC3545; /* Red color */
+  background-color: green; /* Red color */
   border: none;
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
 }
-
+.imgb8{
+  position: fixed;
+  width:69px;
+  height:65px;
+  bottom:72px;
+  right:356px;
+    border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: contain;
+}
 .whatsapp-icon {
   display: flex;
   justify-content: center;
@@ -326,9 +336,9 @@ footer{
   display: none;
   position: fixed;
   bottom: 80px;
-  left:8px;
+  right: 20px;
   width: 300px;
-  background-color: #fff;
+  background-image: url('Screenshot_2025-08-22-20-19-56-26_b783bf344239542886fee7b48fa4b892.jpg');
   border: 1px solid #ddd;
   padding: 10px;
   z-index: 1000;
@@ -371,6 +381,8 @@ footer{
   cursor: pointer;
   width: 100%;
 }
+
+
 
 .fade-out {
   animation: fadeOut 2s forwards;
