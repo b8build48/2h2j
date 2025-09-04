@@ -290,18 +290,6 @@ a{
 .custom-order-button button:hover {
   background-color: #3e8e41;
 }
-footer{
-    text-align:center;
-    color:white;
-    background-image:url('20250709_192044 (1) (1).jpg');
-    padding-top:8em;
-    padding-bottom:8em;
-    clear:none;
-    background-size:cover;
-    background-position:center;
-    
-}
-
 .whatsapp-btn {
   position: fixed;
   width:50px;
@@ -314,7 +302,7 @@ footer{
   border-radius: 50%;
   cursor: pointer;
 }
-.imgb8{
+.img{
   position: fixed;
   width:69px;
   height:65px;
@@ -419,3 +407,16 @@ body {
 .fade-out {
   animation-delay: 2s; /* Wait 2 seconds before fading out */
 }
+
+footer{
+    text-align:center;
+    color:white;
+    background-image:url('20250709_192044 (1) (1).jpg');
+    padding-top:8em;
+    padding-bottom:8em;
+    clear:none;
+    background-size:cover;
+    background-position:center;
+    
+}
+
